@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Diagnóstico de vulnerabilidades y amenazas de ciberseguridad'
