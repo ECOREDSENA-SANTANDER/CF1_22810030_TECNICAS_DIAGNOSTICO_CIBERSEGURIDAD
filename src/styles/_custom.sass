@@ -78,7 +78,19 @@ figcaption
     background-color: #CFCCEB
   &-4
     background-color: #ADEAF9
-.bg-complm
+  &-5
+    background-color: #D8D8E3
+  &-6
+    background-color: #B6B3E1
+  &-7
+    background-color: #D6F5FC
+  &-8
+    background-color: #EFEDE4
+  &-9
+    background-color: #1F7A90
+  &-10
+    background-color:  #646867
+.bg-compll
   &-1
     position: relative
     &::before
@@ -89,6 +101,47 @@ figcaption
       width: 20%
       height: 100%
       background-color: #CCDADA
+  &-3
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      top: 0
+      left: -20%
+      width: 20%
+      height: 100%
+      background-color: #CFCCEB
+  &-4
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      top: 0
+      left: -20%
+      width: 20%
+      height: 100%
+      background-color: #ADEAF9
+.bg-complr
+  &-3
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      top: 0
+      right: -20%
+      width: 20%
+      height: 100%
+      background-color: #CFCCEB
+  &-8
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      top: 0
+      right: -20%
+      width: 20%
+      height: 100%
+      background-color: #EFEDE4
 .bgcompl
   &-1
     background: #CCDADA
@@ -143,10 +196,11 @@ figcaption
 .bg-color-adicional-1
   background-color: $color-adicional-1
 
-
+.w-85x
+  width: 85px
 .br-b1
   border-bottom-right-radius: 100px
-.titulo-tercero
+.subt
   display: flex
   align-items: center
   position: relative  
@@ -167,12 +221,34 @@ figcaption
 .acordion
   &__activo
     background-color: #D8D8E3
+  &__accion__btn--a
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    i
+      color: $white
+  .t4 
+    .acordion__titulo h3
+      color: #FFF
+    &.acordion__activo
+      background-color: #CFCCEB
+      .acordion__titulo h3
+        color: $color-sistema-texto
   &__accion__btn--b
     background-color: $color-acento-botones
     border-color: $color-acento-botones
     i
       color: $white
-
+.linea-tiempo-d
+  &.color-acento-botones
+    .tarjeta
+      background-color: #D8D8E3
+  &.color-secundario
+    .tarjeta
+      background-color: #CCDADA
+  &__item__content__title
+    font-weight: bold
+.slyder-f__btn i
+  color: $color-acento-botones
 
 /**************************************************************/
 /*Media Queries*/  
@@ -189,21 +265,28 @@ figcaption
     margin-bottom: 2em  !important  
   .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
     width: 90% !important
-
-  
- 
-  
+   
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
-    margin-bottom: 2em  !important  
-
-  
+    margin-bottom: 2em  !important   
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
     margin-bottom: 2em  !important
+  .subt
+    h3 
+      z-index: 1
+      margin-right: 0.3rem !important
+    &::before
+      content: ''
+      position: absolute
+      background-color: #B6B3E1
+      border-radius: 100px
+      width: 100%
+      height: 95%
+      z-index: 0
 
   
  
