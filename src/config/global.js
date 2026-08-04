@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Diagnóstico de vulnerabilidades y amenazas de ciberseguridad',
     Description:
-      'Este componente orienta la exploración de vulnerabilidades, amenazas y riesgos en infraestructuras tecnológicas, mediante conceptos de ciberseguridad, seguridad de la información, malware, ingeniería social y técnicas de diagnóstico. Además, promueve el análisis responsable de activos, la clasificación de riesgos y el reconocimiento de medidas iniciales para proteger sistemas, información y servicios digitales.',
+      'Este componente orienta la exploración de vulnerabilidades, amenazas y riesgos en infraestructuras tecnológicas, mediante conceptos de ciberseguridad, seguridad de la información, <em>malware</em>, ingeniería social y técnicas de diagnóstico. Además, promueve el análisis responsable de activos, la clasificación de riesgos y el reconocimiento de medidas iniciales para proteger sistemas, información y servicios digitales.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [

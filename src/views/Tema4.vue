@@ -12,10 +12,10 @@
         :style="{'background-image': `url(${require_src('@/assets/curso/temas/t4/1.png')})`}"
       )
       .bloque-texto-g__texto.p-4.br-b1
-        p.mb-0 Una vez establecidos los fundamentos, las estrategias y los referentes que orientan el diagnóstico, resulta necesario estudiar una de las manifestaciones más frecuentes de las amenazas digitales: el software malicioso o malware. Su análisis permite comprender cómo una vulnerabilidad técnica, una configuración inadecuada o una decisión poco segura de un usuario pueden facilitar la afectación de un sistema de información. #[br] #[br]
-        p.mb-0 En contextos educativos y empresariales, el malware puede comprometer equipos de usuario, redes, aplicaciones, servidores y archivos compartidos. Un computador utilizado para acceder a una plataforma virtual podría infectarse después de abrir un archivo adjunto fraudulento. Un sitio web construido para promocionar servicios podría incorporar componentes inseguros o desactualizados. Una memoria USB conectada a diferentes equipos de laboratorio podría facilitar la propagación de código malicioso si no existen controles adecuados. Cada situación requiere reconocer señales, identificar activos expuestos y establecer una relación razonada entre la amenaza, la vulnerabilidad y el posible impacto.
+        p.mb-0 Una vez establecidos los fundamentos, las estrategias y los referentes que orientan el diagnóstico, resulta necesario estudiar una de las manifestaciones más frecuentes de las amenazas digitales: el #[em software] malicioso o #[em malware]. Su análisis permite comprender cómo una vulnerabilidad técnica, una configuración inadecuada o una decisión poco segura de un usuario pueden facilitar la afectación de un sistema de información. #[br] #[br]
+        p.mb-0 En contextos educativos y empresariales, el #[em malware] puede comprometer equipos de usuario, redes, aplicaciones, servidores y archivos compartidos. Un computador utilizado para acceder a una plataforma virtual podría infectarse después de abrir un archivo adjunto fraudulento. Un sitio #[em web] construido para promocionar servicios podría incorporar componentes inseguros o desactualizados. Una memoria USB conectada a diferentes equipos de laboratorio podría facilitar la propagación de código malicioso si no existen controles adecuados. Cada situación requiere reconocer señales, identificar activos expuestos y establecer una relación razonada entre la amenaza, la vulnerabilidad y el posible impacto.
 
-    p El malware, los ataques y la ingeniería social no deben analizarse como hechos aislados. Cada amenaza debe relacionarse con activos expuestos, vulnerabilidades existentes, señales identificables y posibles consecuencias sobre la información, los sistemas y los servicios digitales.
+    p El #[em malware], los ataques y la ingeniería social no deben analizarse como hechos aislados. Cada amenaza debe relacionarse con activos expuestos, vulnerabilidades existentes, señales identificables y posibles consecuencias sobre la información, los sistemas y los servicios digitales.
 
 
     Separador
@@ -24,9 +24,9 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8(data-aos='fade-right')
-        p El término malware procede de la expresión inglesa malicious software y se utiliza para describir programas, fragmentos de código o componentes diseñados para realizar acciones perjudiciales o no autorizadas sobre sistemas, redes, dispositivos o información. La Cybersecurity and Infrastructure Security Agency (CISA) señala que el malware puede utilizarse para interrumpir servicios, sustraer información sensible o acceder de manera indebida a sistemas informáticos privados (CISA, s. f.-a).
+        p El término #[em malware] procede de la expresión inglesa #[em malicious software] y se utiliza para describir programas, fragmentos de código o componentes diseñados para realizar acciones perjudiciales o no autorizadas sobre sistemas, redes, dispositivos o información. La #[em Cybersecurity and Infrastructure Security Agency] (CISA) señala que el #[em malware] puede utilizarse para interrumpir servicios, sustraer información sensible o acceder de manera indebida a sistemas informáticos privados (CISA, s. f.-a).
         .bg-color-1.bg-compll-1.p-4.mb-4
-          p.mb-0 La característica central del malware no depende exclusivamente de su forma técnica, sino de su finalidad y comportamiento. Un archivo puede parecer legítimo, pero ejecutar acciones ocultas al abrirse. Una aplicación aparentemente útil puede recolectar información sin autorización. Un programa puede permanecer inactivo durante un periodo y activarse posteriormente bajo determinadas condiciones. Por ello, el diagnóstico debe evitar una mirada limitada a los nombres de los archivos o a la apariencia de los programas. La exploración requiere analizar el contexto, los cambios identificados y las señales que podrían indicar una afectación.
+          p.mb-0 La característica central del #[em malware] no depende exclusivamente de su forma técnica, sino de su finalidad y comportamiento. Un archivo puede parecer legítimo, pero ejecutar acciones ocultas al abrirse. Una aplicación aparentemente útil puede recolectar información sin autorización. Un programa puede permanecer inactivo durante un periodo y activarse posteriormente bajo determinadas condiciones. Por ello, el diagnóstico debe evitar una mirada limitada a los nombres de los archivos o a la apariencia de los programas. La exploración requiere analizar el contexto, los cambios identificados y las señales que podrían indicar una afectación.
       .col-lg-4.d-none.d-lg-block(data-aos='fade-left')
         img(src='@/assets/curso/temas/t4/2.png', alt='')
 
@@ -35,15 +35,15 @@
         .tarjeta.bg-color-10.p-4.h-100.d-flex.align-items-center
           img(src='@/assets/curso/temas/t4/3.svg', alt='')
       .col-lg-9(data-aos='fade-left')
-        p En términos pedagógicos, el malware puede compararse con un elemento extraño que ingresa a una organización y altera su funcionamiento desde el interior. La analogía no implica que todos los casos se desarrollen de la misma manera. Algunos programas buscan propagarse; otros intentan permanecer ocultos; algunos bloquean archivos; y otros recopilan información. Comprender estas diferencias permite clasificar las amenazas con mayor precisión.
-        p En una institución de formación, por ejemplo, un aprendiz podría descargar una herramienta desde un sitio web no confiable para realizar una actividad práctica. Si el archivo contiene código malicioso y el equipo no dispone de controles adecuados, la amenaza podría materializarse. El problema no reside únicamente en la descarga. También intervienen la ausencia de validación de la fuente, la posible falta de actualización del sistema, el nivel de privilegios asignado al usuario y la capacidad institucional para detectar comportamientos anómalos.
+        p En términos pedagógicos, el #[em malware] puede compararse con un elemento extraño que ingresa a una organización y altera su funcionamiento desde el interior. La analogía no implica que todos los casos se desarrollen de la misma manera. Algunos programas buscan propagarse; otros intentan permanecer ocultos; algunos bloquean archivos; y otros recopilan información. Comprender estas diferencias permite clasificar las amenazas con mayor precisión.
+        p En una institución de formación, por ejemplo, un aprendiz podría descargar una herramienta desde un sitio #[em web] no confiable para realizar una actividad práctica. Si el archivo contiene código malicioso y el equipo no dispone de controles adecuados, la amenaza podría materializarse. El problema no reside únicamente en la descarga. También intervienen la ausencia de validación de la fuente, la posible falta de actualización del sistema, el nivel de privilegios asignado al usuario y la capacidad institucional para detectar comportamientos anómalos.
 
     .tarjeta.bg-color-3.p-4.mb-5(data-aos='fade')
-      p.mb-0 La clasificación del malware facilita la interpretación de sus comportamientos y posibles afectaciones. CISA incluye entre las modalidades comunes los virus, gusanos, troyanos, ransomware, spyware y rootkits, entre otras variantes (CISA, 2022). Estas categorías no deben entenderse como compartimentos completamente cerrados. Un mismo programa puede combinar funciones, evolucionar con el tiempo o emplearse como parte de una cadena de ataque más amplia.
+      p.mb-0 La clasificación del #[em malware] facilita la interpretación de sus comportamientos y posibles afectaciones. CISA incluye entre las modalidades comunes los virus, gusanos, troyanos, #[em ransomware], #[em spyware] y #[em rootkits], entre otras variantes (CISA, 2022). Estas categorías no deben entenderse como compartimentos completamente cerrados. Un mismo programa puede combinar funciones, evolucionar con el tiempo o emplearse como parte de una cadena de ataque más amplia.
 
     .subt.mb-4(data-aos='fade-right')
       img.mx-3(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.me-5 Modalidades frecuentes de malware
+      h3.mb-0.me-5 Modalidades frecuentes de #[em malware]
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-primario t4")
       .row.justify-content-around.align-items-center(titulo="Virus")
@@ -78,7 +78,7 @@
         .col-lg-5.col-md-8.col-10.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/t4/acord1-6.png', alt='')
         .col-lg-11.col-11
-          p El diagnóstico de malware comienza con la revisión de señales. Algunos indicios pueden orientar una revisión, pero no deben tratarse como pruebas definitivas de infección. La lentitud de un equipo, por ejemplo, puede deberse a diferentes causas: limitaciones de hardware, fallas de almacenamiento, exceso de aplicaciones legítimas o presencia de software malicioso. El análisis profesional evita atribuir una única explicación sin recopilar evidencia.
+          p El diagnóstico de #[em malware] comienza con la revisión de señales. Algunos indicios pueden orientar una revisión, pero no deben tratarse como pruebas definitivas de infección. La lentitud de un equipo, por ejemplo, puede deberse a diferentes causas: limitaciones de #[em hardware], fallas de almacenamiento, exceso de aplicaciones legítimas o presencia de #[em software] malicioso. El análisis profesional evita atribuir una única explicación sin recopilar evidencia.
           .tarjeta.bg-color-6.p-4.mb-4
             p Entre las señales que requieren revisión se encuentran los cambios inesperados en el comportamiento de los equipos, la aparición de aplicaciones desconocidas, las conexiones inusuales, el consumo excesivo de recursos, la modificación no autorizada de archivos, los mensajes emergentes atípicos, la imposibilidad de acceder a documentos o la ejecución de procesos que no corresponden con el inventario esperado. La interpretación adecuada exige comparar el comportamiento identificado con una línea base o condición habitual.
             p.mb-0 La línea base puede entenderse como una referencia del funcionamiento normal. En un laboratorio de formación, por ejemplo, se espera encontrar determinadas aplicaciones, servicios y configuraciones. Si aparecen procesos no autorizados o conexiones que no corresponden con la práctica realizada, el hallazgo debe registrarse y analizarse. Esta metodología permite que el aprendiz comprenda la diferencia entre revisión y conclusión.
@@ -198,7 +198,7 @@
             p.mb-0 El análisis debe evitar responsabilizar de manera simplista al usuario. Una organización segura no espera que cada persona detecte por sí sola todas las amenazas. Debe combinar formación, procedimientos claros, canales de reporte y controles tecnológicos. La cultura de seguridad se construye cuando los usuarios comprenden los riesgos y cuentan con recursos para actuar de manera adecuada.
     
     p.mb-1 La ingeniería social comprende técnicas de manipulación orientadas a inducir a una persona a entregar información, realizar una acción o permitir un acceso que normalmente no autorizaría. Su efectividad se relaciona con factores humanos como la confianza, la urgencia, la curiosidad, el temor o el deseo de ayudar.
-    p El phishing constituye una modalidad frecuente. El atacante se presenta como una persona u organización confiable e intenta inducir a la víctima a abrir un enlace, descargar un archivo o proporcionar información. CISA también identifica variantes como el #[em smishing], que utiliza mensajes de texto, y otras formas de engaño adaptadas a diferentes canales.
+    p El #[em phishing] constituye una modalidad frecuente. El atacante se presenta como una persona u organización confiable e intenta inducir a la víctima a abrir un enlace, descargar un archivo o proporcionar información. CISA también identifica variantes como el #[em smishing], que utiliza mensajes de texto, y otras formas de engaño adaptadas a diferentes canales.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8(data-aos='fade-right')
@@ -214,7 +214,7 @@
           img(src='@/assets/curso/temas/t4/8.svg', alt='')
       .col-lg-7(data-aos='fade-left')
         p Un ataque de ingeniería social puede comprender varias fases. En primer lugar, el actor recopila información sobre la organización, sus servicios, usuarios o prácticas habituales. Posteriormente, selecciona un pretexto creíble, establece contacto y busca generar confianza o presión. Finalmente, intenta obtener una acción: entregar datos, abrir un archivo, ingresar credenciales o permitir acceso.
-        p.mb-0 La recopilación de información puede aprovechar datos públicos disponibles en sitios web, redes sociales o directorios. La organización debe analizar qué información pública y si dicha divulgación resulta necesaria. La transparencia institucional es importante, pero debe equilibrarse con criterios de privacidad y seguridad.
+        p.mb-0 La recopilación de información puede aprovechar datos públicos disponibles en sitios #[em web], redes sociales o directorios. La organización debe analizar qué información pública y si dicha divulgación resulta necesaria. La transparencia institucional es importante, pero debe equilibrarse con criterios de privacidad y seguridad.
 
     p La construcción del pretexto busca presentar una historia aparentemente válida. Un mensaje puede simular una solicitud del área técnica, una notificación de entrega o una actualización urgente. La capacidad crítica del usuario se fortalece cuando conoce los canales institucionales y sabe cómo verificar una solicitud.
 
@@ -248,9 +248,9 @@
       .col-lg-6.d-none.d-lg-block(data-aos='fade-left')
         img(src='@/assets/curso/temas/t4/9.png', alt='')
 
-    p Las técnicas varían según el medio utilizado y el objetivo perseguido. El phishing emplea mensajes digitales para inducir una acción. El spear phishing adapta el contenido a una persona o grupo específico. 
+    p Las técnicas varían según el medio utilizado y el objetivo perseguido. El #[em phishing] emplea mensajes digitales para inducir una acción. El #[em spear phishing] adapta el contenido a una persona o grupo específico. 
 
-    p El smishing utiliza mensajes de texto. El vishing recurre a llamadas de voz. El pretexting construye una situación ficticia para solicitar información o acceso. El baiting ofrece un incentivo para despertar interés.
+    p El #[em smishing] utiliza mensajes de texto. El #[em vishing] recurre a llamadas de voz. El #[em pretexting] construye una situación ficticia para solicitar información o acceso. El #[em baiting] ofrece un incentivo para despertar interés.
 
     p Estas técnicas pueden combinarse. Un actor puede recopilar información pública, enviar un correo personalizado y realizar una llamada posterior para reforzar la credibilidad. Por esta razón, la formación no debe concentrarse únicamente en reconocer errores ortográficos o mensajes evidentemente sospechosos. Las campañas pueden utilizar diseños convincentes, información real y canales diversos.
 
@@ -263,7 +263,7 @@
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-acento-contenido")
           .row(titulo="<em>Phishing</em>")
             .col-md-11.mb-4.mb-md-0
-              p Utiliza correo electrónico, mensajería o sitio web fraudulento. Un ejemplo sería un mensaje que solicita ingresar a un enlace para evitar el bloqueo de una cuenta institucional. La señal que requiere revisión puede ser un remitente inusual, urgencia injustificada o un enlace que no corresponde con el dominio esperado. La acción preventiva consiste en verificar el canal oficial, evitar abrir enlaces dudosos y reportar el mensaje.
+              p Utiliza correo electrónico, mensajería o sitio #[em web] fraudulento. Un ejemplo sería un mensaje que solicita ingresar a un enlace para evitar el bloqueo de una cuenta institucional. La señal que requiere revisión puede ser un remitente inusual, urgencia injustificada o un enlace que no corresponde con el dominio esperado. La acción preventiva consiste en verificar el canal oficial, evitar abrir enlaces dudosos y reportar el mensaje.
           .row(titulo="<em>Spear phishing</em>")
             .col-md-11.mb-4.mb-md-0
               p Emplea un mensaje dirigido a una persona o grupo específico. Un supuesto coordinador podría solicitar a un instructor descargar un archivo relacionado con una actividad. La señal que requiere revisión es el uso de información contextual para generar confianza y una solicitud no habitual. La acción preventiva consiste en confirmar la solicitud mediante un canal alternativo.
@@ -278,7 +278,7 @@
               p Construye una historia o situación ficticia utilizada como argumento. Un supuesto proveedor podría solicitar información interna para completar una actualización. La señal que requiere revisión es una solicitud que excede la información necesaria o que no sigue el procedimiento habitual. La acción preventiva consiste en aplicar protocolos de verificación y limitar la información compartida.
           .row(titulo="<em>Baiting</em>")
             .col-md-11.mb-4.mb-md-0
-              p Ofrece un incentivo, recurso gratuito o elemento atractivo. Un archivo puede prometer acceso a una herramienta gratuita para realizar una actividad. La señal que requiere revisión es una descarga desde una fuente no validada o una exigencia de permisos innecesarios. La acción preventiva consiste en utilizar repositorios autorizados y validar la procedencia del software.
+              p Ofrece un incentivo, recurso gratuito o elemento atractivo. Un archivo puede prometer acceso a una herramienta gratuita para realizar una actividad. La señal que requiere revisión es una descarga desde una fuente no validada o una exigencia de permisos innecesarios. La acción preventiva consiste en utilizar repositorios autorizados y validar la procedencia del #[em software].
       .col-lg-4.d-none.d-lg-block(data-aos='fade-left')
         img(src='@/assets/curso/temas/t4/10.png', alt='')
 

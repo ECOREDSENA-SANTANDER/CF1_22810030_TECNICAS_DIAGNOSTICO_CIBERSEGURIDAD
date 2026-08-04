@@ -98,7 +98,7 @@
       .col-lg-5.d-none.d-lg-block(data-aos='fade-right')
         img(src='@/assets/curso/temas/t3/8.png', alt='')
       .col-lg-7(data-aos='fade-left')
-        p Los procedimientos de diagnóstico permiten verificar si los controles se aplican de manera consistente. Su desarrollo debe mantener relación con el alcance autorizado y con la criticidad de los activos. Una revisión inicial puede incluir inventario de hardware y software, verificación de actualizaciones, análisis de permisos, revisión de configuraciones, análisis de registros y exploración controlada de servicios.
+        p Los procedimientos de diagnóstico permiten verificar si los controles se aplican de manera consistente. Su desarrollo debe mantener relación con el alcance autorizado y con la criticidad de los activos. Una revisión inicial puede incluir inventario de #[em hardware] y #[em software], verificación de actualizaciones, análisis de permisos, revisión de configuraciones, análisis de registros y exploración controlada de servicios.
         p La secuencia pedagógica debe comenzar por preguntas comprensibles. ¿Qué activos existen? ¿Qué usuarios acceden a ellos? ¿Qué aplicaciones se encuentran instaladas? ¿Qué servicios están disponibles? ¿Qué información procesa el sistema? ¿Qué configuraciones requieren validación? Estas preguntas orientan la recopilación de evidencia y evitan que la actividad se reduzca a ejecutar una herramienta sin propósito definido.
 
     .tarjeta.bg-color-8.mb-4.p-4(data-aos='fade')
@@ -176,12 +176,12 @@
           img.w-75.m-auto(src='@/assets/curso/temas/t3/10.svg', alt='')
         .col-lg-7
           .d-flex.justify-content-center.align-items-center.flex-column.h-100        
-            p La gestión de seguridad de la información requiere valorar riesgos de manera estructurada. ISO/IEC 27005:2022 ofrece orientaciones para identificar, evaluar y tratar riesgos de seguridad de la información como apoyo a la implementación de un sistema de gestión basado en ISO/IEC 27001 (International Organization for Standardization [ISO], 2022b).
+            p La gestión de seguridad de la información requiere valorar riesgos de manera estructurada. ISO/IEC 27005:2022 ofrece orientaciones para identificar, evaluar y tratar riesgos de seguridad de la información como apoyo a la implementación de un sistema de gestión basado en ISO/IEC 27001 (#[em International Organization for Standardization] [ISO], 2022b).
             p.mb-0 La evaluación debe considerar el activo, la vulnerabilidad, la amenaza, la probabilidad de materialización y el impacto posible. La organización también necesita analizar los controles existentes y determinar si reducen suficientemente la exposición. En contextos básicos de formación, esta valoración puede representarse mediante escalas cualitativas, como bajo, medio y alto, siempre que se expliquen los criterios empleados.
 
     img.d-none.d-lg-block.mb-4(src='@/assets/curso/temas/t3/11.png', alt='', data-aos='fade')
 
-    p Considérese una aplicación web creada por una pequeña empresa para recibir solicitudes. El sitio utiliza un componente desactualizado. La vulnerabilidad puede relacionarse con una amenaza externa que intente aprovechar la falla. El impacto podría involucrar modificación del contenido, acceso indebido o interrupción del servicio. Para priorizar el hallazgo, deben analizarse la exposición del sitio, la criticidad de los datos y la existencia de medidas de protección.
+    p Considérese una aplicación #[em web] creada por una pequeña empresa para recibir solicitudes. El sitio utiliza un componente desactualizado. La vulnerabilidad puede relacionarse con una amenaza externa que intente aprovechar la falla. El impacto podría involucrar modificación del contenido, acceso indebido o interrupción del servicio. Para priorizar el hallazgo, deben analizarse la exposición del sitio, la criticidad de los datos y la existencia de medidas de protección.
 
     p La evaluación no debe confundirse con una certeza absoluta. Un riesgo expresa una posibilidad fundamentada y requiere revisión periódica. Los cambios tecnológicos, las nuevas amenazas y la evolución del servicio pueden modificar la prioridad de un hallazgo. Esta idea fortalece una competencia esencial: el diagnóstico es un proceso continuo y no una fotografía permanente.
 
@@ -199,7 +199,7 @@
     .tarjeta.bg-color-1.p-4.mb-4(data-aos='fade')
       p.mb-0 El #[em NIST Cybersecurity Framework] 2.0 organiza los resultados de ciberseguridad en seis funciones: gobernar, identificar, proteger, detectar, responder y recuperar. Esta estructura facilita comprender el ciclo completo de gestión. El presente componente se concentra principalmente en identificar y explorar, pero los hallazgos deben contribuir posteriormente a la protección, detección, respuesta y recuperación (NIST, 2024).
 
-    p Los CIS Controls aportan una aproximación práctica mediante salvaguardas priorizadas. Su utilidad pedagógica reside en mostrar que la seguridad puede traducirse en acciones verificables: inventariar activos, mantener configuraciones seguras, administrar vulnerabilidades, proteger datos, controlar accesos y fortalecer la respuesta ante incidentes. El aprendiz no necesita aplicar todos los controles durante este componente, pero debe reconocer que los hallazgos del diagnóstico orientan decisiones posteriores.
+    p Los #[em CIS Controls] aportan una aproximación práctica mediante salvaguardas priorizadas. Su utilidad pedagógica reside en mostrar que la seguridad puede traducirse en acciones verificables: inventariar activos, mantener configuraciones seguras, administrar vulnerabilidades, proteger datos, controlar accesos y fortalecer la respuesta ante incidentes. El aprendiz no necesita aplicar todos los controles durante este componente, pero debe reconocer que los hallazgos del diagnóstico orientan decisiones posteriores.
 
     .subt.mb-4(data-aos='fade-right')
       img.mx-3(src='@/assets/curso/temas/t1/subt.svg', alt='')

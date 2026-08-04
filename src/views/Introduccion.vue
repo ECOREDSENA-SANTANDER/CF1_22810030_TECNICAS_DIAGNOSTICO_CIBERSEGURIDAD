@@ -12,7 +12,7 @@
     
     .row.justify-content-center.align-items-center.mb-4 
       .col-lg-8
-        p La transformación digital ha cambiado la forma en que las personas, instituciones y organizaciones gestionan información, prestan servicios y se comunican. Una institución educativa puede administrar matrículas en una plataforma web, almacenar documentos en servicios digitales y desarrollar procesos de formación virtual. Una pequeña empresa puede recibir pedidos por internet, usar facturación electrónica y proteger datos de clientes. Estos escenarios muestran que la tecnología facilita muchas actividades, pero también genera condiciones que deben analizarse con criterio preventivo.
+        p La transformación digital ha cambiado la forma en que las personas, instituciones y organizaciones gestionan información, prestan servicios y se comunican. Una institución educativa puede administrar matrículas en una plataforma #[em web], almacenar documentos en servicios digitales y desarrollar procesos de formación virtual. Una pequeña empresa puede recibir pedidos por internet, usar facturación electrónica y proteger datos de clientes. Estos escenarios muestran que la tecnología facilita muchas actividades, pero también genera condiciones que deben analizarse con criterio preventivo.
         .bg-color-1.bg-complm-1.p-4
           p.mb-0 La ciberseguridad permite reconocer esas condiciones y comprender qué información, sistemas y servicios requieren protección. No se limita a instalar herramientas ni a reaccionar cuando ocurre un incidente; implica identificar vulnerabilidades, reconocer amenazas y valorar riesgos antes de que se materialicen. Por ello, el diagnóstico de ciberseguridad es importante para anticipar posibles afectaciones, fortalecer la protección de los activos de información y tomar decisiones responsables frente al uso de la tecnología.
       .col-lg-4.d-none.d-lg-block
@@ -26,7 +26,7 @@
           img.w-75.m-auto(src='@/assets/curso/temas/intro/2.svg', alt='')
       .col-lg-9
         .bg-color-3.p-4.h-100.d-flex.align-items-center
-          p.mb-0 El contenido se abordará de manera progresiva, mediante explicaciones, ejemplos aplicados, tablas comparativas y recursos educativos digitales que faciliten el estudio autónomo. Primero se presentarán los fundamentos de ciberseguridad y seguridad de la información; luego se analizarán técnicas de diagnóstico, referentes normativos, malware, vulnerabilidades, amenazas e ingeniería social. Además, se promoverá una postura ética, porque toda exploración técnica debe realizarse con autorización, alcance definido y respeto por la normativa vigente. 
+          p.mb-0 El contenido se abordará de manera progresiva, mediante explicaciones, ejemplos aplicados, tablas comparativas y recursos educativos digitales que faciliten el estudio autónomo. Primero se presentarán los fundamentos de ciberseguridad y seguridad de la información; luego se analizarán técnicas de diagnóstico, referentes normativos, #[em malware], vulnerabilidades, amenazas e ingeniería social. Además, se promoverá una postura ética, porque toda exploración técnica debe realizarse con autorización, alcance definido y respeto por la normativa vigente. 
 
     .row.justify-content-center.align-items-center           
       .col-lg-12

@@ -85,7 +85,7 @@
         .bg-color-3.bg-complr-3.p-4.mb-4
           p.mb-0 Una vulnerabilidad es una debilidad que puede ser aprovechada por una amenaza para afectar la confidencialidad, integridad, disponibilidad o privacidad de la información. Puede originarse en una falla de programación, una configuración inadecuada, una versión desactualizada, un procedimiento incompleto, un control insuficiente o una práctica insegura por parte de los usuarios.
 
-    p Debe distinguirse entre una vulnerabilidad concreta y una debilidad general. Una vulnerabilidad puede asociarse con una versión particular de un componente tecnológico y registrarse mediante un identificador CVE. En cambio, una debilidad describe un patrón que podría originar múltiples vulnerabilidades. El proyecto Common Weakness Enumeration (CWE) reúne tipos de debilidades de software y hardware, como errores en el control de acceso, validación insuficiente de entradas o manejo inadecuado de información sensible.
+    p Debe distinguirse entre una vulnerabilidad concreta y una debilidad general. Una vulnerabilidad puede asociarse con una versión particular de un componente tecnológico y registrarse mediante un identificador CVE. En cambio, una debilidad describe un patrón que podría originar múltiples vulnerabilidades. El proyecto #[em Common Weakness Enumeration] (CWE) reúne tipos de debilidades de #[em software] y #[em hardware], como errores en el control de acceso, validación insuficiente de entradas o manejo inadecuado de información sensible.
 
     p.mb-4 Las vulnerabilidades pueden clasificarse de acuerdo con su origen, el activo afectado y la forma en que podrían facilitar una afectación. Esta clasificación orienta la exploración y permite ordenar los hallazgos obtenidos mediante herramientas o procedimientos de diagnóstico.
 
@@ -104,9 +104,9 @@
               th Evidencia que requiere revisión
           tbody
             tr
-              td Software
+              td #[em Software]
               td Debilidad asociada con el diseño, desarrollo o mantenimiento de una aplicación o componente.
-              td Un sitio web utiliza una biblioteca desactualizada.
+              td Un sitio #[em web] utiliza una biblioteca desactualizada.
               td Exposición de datos, modificación no autorizada o interrupción del servicio.
               td Versión instalada, documentación técnica y registros de actualización.
             tr
@@ -119,7 +119,7 @@
               td Red
               td Condición insegura relacionada con conectividad, servicios o segmentación.
               td Un servicio interno se encuentra disponible para usuarios que no lo requieren.
-              td Acceso indebido, propagación de malware o exploración no autorizada.
+              td Acceso indebido, propagación de #[em malware] o exploración no autorizada.
               td Inventario de servicios, topología de red y resultados del escaneo autorizado.
             tr
               td Física
@@ -134,7 +134,7 @@
               td Suplantación, pérdida de trazabilidad o exposición de información.
               td Política de autenticación, entrevistas, registros de acceso y procedimientos internos.
     
-    p La tabla muestra que las vulnerabilidades no pertenecen exclusivamente al software. Un diagnóstico integral debe considerar la relación entre tecnología, personas y procesos. Esta mirada evita que la exploración se reduzca a los resultados de una herramienta automatizada.
+    p La tabla muestra que las vulnerabilidades no pertenecen exclusivamente al #[em software]. Un diagnóstico integral debe considerar la relación entre tecnología, personas y procesos. Esta mirada evita que la exploración se reduzca a los resultados de una herramienta automatizada.
 
 
     Separador
@@ -152,7 +152,7 @@
             p.mb-0 La identificación de vulnerabilidades permite reconocer debilidades, pero el diagnóstico no estaría completo sin analizar las amenazas que podrían aprovecharlas. Una amenaza corresponde a una circunstancia, actor o evento con capacidad de generar una afectación. Puede originarse dentro o fuera de la organización, ser intencional o accidental y utilizar medios técnicos o sociales.
         .bg-color-8.bg-complr-8.p-4.mb-4
           p.mb-0 Las amenazas pueden clasificarse según su origen. Las amenazas externas proceden de actores o eventos ajenos a la organización, como intentos de acceso no autorizado, campañas de suplantación o interrupciones de servicios externos. Las amenazas internas se relacionan con personas, procesos o condiciones dentro de la organización. Un usuario puede provocar una afectación de forma deliberada, pero también cometer un error sin intención maliciosa.
-        p Otra clasificación distingue las amenazas intencionales, accidentales, técnicas y ambientales. Las intencionales buscan causar daño, obtener acceso o extraer información. Las accidentales surgen de errores, omisiones o desconocimiento. Las técnicas incluyen fallas de hardware, software o conectividad. Las ambientales comprenden eventos que afectan instalaciones o infraestructura, como interrupciones eléctricas o daños físicos.
+        p Otra clasificación distingue las amenazas intencionales, accidentales, técnicas y ambientales. Las intencionales buscan causar daño, obtener acceso o extraer información. Las accidentales surgen de errores, omisiones o desconocimiento. Las técnicas incluyen fallas de #[em hardware], #[em software] o conectividad. Las ambientales comprenden eventos que afectan instalaciones o infraestructura, como interrupciones eléctricas o daños físicos.
 
     .mb-5(data-aos='fade-down')
       .titulo-sexto.color-acento-contenido.mb-3
@@ -188,7 +188,7 @@
               td Divulgación no autorizada.
             tr
               td Técnica
-              td Surge de fallas en equipos, software o conectividad.
+              td Surge de fallas en equipos, #[em software] o conectividad.
               td Un dispositivo de almacenamiento presenta daños y no existe copia de respaldo.
               td Archivos operativos.
               td Pérdida de disponibilidad.
