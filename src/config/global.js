@@ -111,7 +111,7 @@ export default {
         subMenu: [
           {
             numero: '4.1',
-            titulo: 'Malware y señales de posible infección',
+            titulo: '<em>Malware</em> y señales de posible infección',
             hash: 't_4_1',
           },
           {
@@ -274,7 +274,7 @@ export default {
     {
       termino: '<em>Ransomware</em>',
       significado:
-        'modalidad de malware que busca bloquear el acceso a archivos o sistemas, comúnmente mediante cifrado, y puede utilizarse con fines de extorsión.',
+        'modalidad de <em>malware</em> que busca bloquear el acceso a archivos o sistemas, comúnmente mediante cifrado, y puede utilizarse con fines de extorsión.',
     },
     {
       termino: 'Riesgo',
@@ -287,7 +287,7 @@ export default {
         'conjunto de prácticas orientadas a preservar la confidencialidad, integridad, disponibilidad y privacidad de la información, independientemente del medio en que se encuentre.',
     },
     {
-      termino: 'Sistema de gestión de seguridad de la información ---SGSI---',
+      termino: 'Sistema de gestión de seguridad de la información (SGSI)',
       significado:
         'conjunto organizado de políticas, procesos, responsabilidades, recursos y mecanismos de mejora para proteger los activos de información.',
     },
@@ -300,38 +300,31 @@ export default {
   referencias: [
     {
       referencia:
-        'Center for Internet Security. (2021). CIS Critical Security Controls Version 8.',
-      link: '',
+        'Center for Internet Security. (2021). CIS Critical Security Controls Version 8. ',
     },
     {
       referencia:
-        'Departamento Nacional de Planeacion. (2020). Documento CONPES 3995: Politica Nacional de Confianza y Seguridad Digital.',
-      link: '',
+        'Departamento Nacional de Planeación. (2020). Documento CONPES 3995: Política Nacional de Confianza y Seguridad Digital.',
     },
     {
       referencia:
-        'European Union Agency for Cybersecurity. (2024). ENISA threat landscape 2024. Publications Office of the European Union.',
-      link: '',
+        'European Union Agency for Cybersecurity. (2024). ENISA threat landscape 2024. Publications Office of the European Union. ',
     },
     {
       referencia:
-        'Forum of Incident Response and Security Teams. (2023). Common Vulnerability Scoring System Version 4.0: Specification document.',
-      link: '',
+        'Forum of Incident Response and Security Teams. (2023). Common Vulnerability Scoring System Version 4.0: Specification document. ',
     },
     {
       referencia:
-        'International Organization for Standardization. (2022a). ISO/IEC 27001:2022. Information security, cybersecurity and privacy protection --- Information security management systems --- Requirements.',
-      link: '',
+        'International Organization for Standardization. (2022a). Information security, cybersecurity and privacy protection — Guidance on managing information security risks (ISO/IEC 27005:2022).',
     },
     {
       referencia:
-        'International Organization for Standardization. (2022b). ISO/IEC 27002:2022. Information security, cybersecurity and privacy protection --- Information security controls.',
-      link: '',
+        'International Organization for Standardization. (2022b). Information security, cybersecurity and privacy protection — Information security controls (ISO/IEC 27002:2022). ',
     },
     {
       referencia:
-        'International Organization for Standardization. (2022c). ISO/IEC 27005:2022. Information security, cybersecurity and privacy protection --- Guidance on managing information security risks.',
-      link: '',
+        'International Organization for Standardization. (2022c). Information security, cybersecurity and privacy protection — Information security management systems — Requirements (ISO/IEC 27001:2022). ',
     },
     {
       referencia:
@@ -340,13 +333,15 @@ export default {
     },
     {
       referencia:
-        'National Institute of Standards and Technology. (2021). Phishing. Small Business Cybersecurity Corner.',
-      link: '',
+        'Ministerio de Tecnologías de la Información y las Comunicaciones. (2022). Decreto 338 de 2022: Lineamientos generales para fortalecer la gobernanza de la seguridad digital.',
     },
     {
       referencia:
-        'National Institute of Standards and Technology. (2024). The NIST Cybersecurity Framework (CSF) 2.0 (NIST Cybersecurity White Paper 29). U.S. Department of Commerce.',
-      link: '',
+        'National Institute of Standards and Technology. (2021). Phishing. Small Business Cybersecurity Corner. ',
+    },
+    {
+      referencia:
+        'National Institute of Standards and Technology. (2024). The NIST Cybersecurity Framework (CSF) 2.0 (NIST Cybersecurity White Paper 29). U.S. Department of Commerce. ',
     },
   ],
   creditos: [
@@ -405,12 +400,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
+          nombre: 'Sandra Liliana Cristancho Cruz',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

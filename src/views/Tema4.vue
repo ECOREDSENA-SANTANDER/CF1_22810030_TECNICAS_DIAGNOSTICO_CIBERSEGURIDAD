@@ -91,27 +91,27 @@
     SlyderF(columnas="col-lg-4 col-md-6")
       .tarjeta-numerada.color-primario.p-5.h-100
         .tarjeta-numerada__numero
-          .h2 1
+          .h2 a
         h5.text-center Cambios inesperados
         p.text-center.mb-0 El equipo presenta comportamientos diferentes a los habituales o ejecuta procesos que no corresponden con el inventario esperado.
       .tarjeta-numerada.color-acento-botones.p-5.h-100
         .tarjeta-numerada__numero
-          .h2 2
+          .h2 b
         h5.text-center Aplicaciones desconocidas
         p.text-center.mb-0 Aparecen programas, complementos o extensiones que no han sido autorizados o que no hacen parte de la práctica realizada.
       .tarjeta-numerada.color-secundario.p-5.h-100
         .tarjeta-numerada__numero
-          .h2 3
+          .h2 c
         h5.text-center Conexiones inusuales
         p.text-center.mb-0 Se identifican conexiones que no corresponden con la operación esperada del dispositivo o del servicio.
       .tarjeta-numerada.color-primario.p-5.h-100
         .tarjeta-numerada__numero
-          .h2 4
+          .h2 d
         h5.text-center Consumo excesivo de recursos
         p.text-center.mb-0 El equipo presenta uso inusual de recursos, aunque esta señal debe contrastarse con otras posibles causas.
       .tarjeta-numerada.color-acento-contenido.p-5.h-100
         .tarjeta-numerada__numero
-          .h2 5
+          .h2 e
         h5.text-center Modificación de archivos
         p.text-center.mb-0 Se presentan cambios no autorizados, imposibilidad de acceder a documentos o mensajes emergentes atípicos.
 
@@ -133,22 +133,22 @@
         img(src='@/assets/curso/temas/t4/4.png', alt='')
       .col-lg-8(data-aos='fade-left')
         LineaTiempoD.color-acento-botones
-          .row(numero="1" titulo="Recopilar información")
+          .row(numero="a" titulo="Recopilar información")
             .col-11
               p Algunos actores buscan información antes de actuar, con el fin de reconocer servicios, usuarios, prácticas o posibles puntos de entrada.
-          .row(numero="2" titulo="Obtener acceso inicial")
+          .row(numero="b" titulo="Obtener acceso inicial")
             .col-11
               p El primer acceso puede lograrse mediante credenciales comprometidas, ingeniería social o aprovechamiento de debilidades expuestas.
-          .row(numero="3" titulo="Mantener el acceso")
+          .row(numero="c" titulo="Mantener el acceso")
             .col-11
               p Después del ingreso inicial, el atacante puede intentar conservar la posibilidad de acceder nuevamente al sistema.
-          .row(numero="4" titulo="Ampliar privilegios")
+          .row(numero="d" titulo="Ampliar privilegios")
             .col-11
               p El actor puede buscar permisos superiores para acceder a más información, servicios o funciones.
-          .row(numero="5" titulo="Desplazarse hacia otros sistemas")
+          .row(numero="e" titulo="Desplazarse hacia otros sistemas")
             .col-11
               p El ataque puede extenderse hacia otros equipos, servicios o áreas de la infraestructura.
-          .row(numero="6" titulo="Extraer información")
+          .row(numero="f" titulo="Extraer información")
             .col-11
               p Una de las finalidades posibles es sustraer información, credenciales u otros elementos de valor para la organización.
 
@@ -160,25 +160,25 @@
       .col-lg-3.col-md-6.mb-3.mb-lg-0
         .tarjeta-numerada.color-primario.p-5.h-100
           .tarjeta-numerada__numero
-            .h2 1
+            .h2 a
           h5.text-center Tácticas
           p.text-center.mb-0 Expresan el propósito de una acción. Indican el motivo por el cual un adversario realiza una actividad.
       .col-lg-3.col-md-6.mb-3.mb-lg-0
         .tarjeta-numerada.color-acento-botones.p-5.h-100
           .tarjeta-numerada__numero
-            .h2 2
+            .h2 b
           h5.text-center  Técnicas
           p.text-center.mb-0 Describen cómo el adversario intenta lograr ese propósito.
       .col-lg-3.col-md-6.mb-3.mb-lg-0
         .tarjeta-numerada.color-secundario.p-5.h-100
           .tarjeta-numerada__numero
-            .h2 3
+            .h2 c
           h5.text-center Acceso inicial
           p.text-center.mb-0 Reúne mecanismos utilizados para obtener un primer punto de entrada.
       .col-lg-3.col-md-6.mb-3.mb-lg-0
         .tarjeta-numerada.color-acento-contenido.p-5.h-100
           .tarjeta-numerada__numero
-            .h2 4
+            .h2 d
           h5.text-center Acceso a credenciales
           p.text-center.mb-0 Comprende técnicas orientadas a obtener nombres de usuario, contraseñas u otros elementos de autenticación.
         

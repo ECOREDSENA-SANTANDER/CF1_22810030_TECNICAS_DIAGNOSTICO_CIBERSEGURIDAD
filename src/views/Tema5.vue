@@ -45,28 +45,28 @@
       h3.mb-0.me-5 De la política a la acción
 
     .row.justify-content-center(data-aos='fade')
-      .col-lg-3.col-md-6.mb-3.mb-lg-0
+      .col-xl-3.col-md-6.mb-3.mb-lg-0
         .tarjeta-numerada.color-primario.p-5.pb-4.h-100
           .tarjeta-numerada__numero
-            .h2 1
+            .h2 a
           h5.text-center Política de seguridad
           p.text-center.mb-0 Establece orientaciones institucionales para proteger activos, definir responsabilidades y guiar decisiones de acuerdo con el contexto organizacional.
-      .col-lg-3.col-md-6.mb-3.mb-lg-0
+      .col-xl-3.col-md-6.mb-3.mb-lg-0
         .tarjeta-numerada.color-acento-botones.p-5.pb-4.h-100
           .tarjeta-numerada__numero
-            .h2 2
+            .h2 b
           h5.text-center Procedimiento
           p.text-center.mb-0 Convierte la política en acciones concretas. Define cómo se crean cuentas, cómo se reportan incidentes o cómo se realizan copias de respaldo.
-      .col-lg-3.col-md-6.mb-3.mb-lg-0
+      .col-xl-3.col-md-6.mb-3.mb-lg-0
         .tarjeta-numerada.color-secundario.p-5.pb-4.h-100
           .tarjeta-numerada__numero
-            .h2 3
+            .h2 c
           h5.text-center Responsabilidades
           p.text-center.mb-0 Aclara el papel de directivos, responsables tecnológicos, usuarios y administradores de procesos frente a la protección de la información.
-      .col-lg-3.col-md-6.mb-3.mb-lg-0
+      .col-xl-3.col-md-6.mb-3.mb-lg-0
         .tarjeta-numerada.color-acento-contenido.p-5.pb-4.h-100
           .tarjeta-numerada__numero
-            .h2 4
+            .h2 d
           h5.text-center Controles
           p.text-center.mb-0 Permiten aplicar medidas específicas, medibles y pertinentes para proteger sistemas, redes, datos, accesos y servicios institucionales.  
 
@@ -218,8 +218,7 @@
               img(src='@/assets/curso/temas/t5/paso1-6.svg', alt='')              
             .col-lg-8.col-md-6
               h4 Asignar prioridad
-              p Se clasifica el hallazgo según criterios técnicos y contextuales, considerando probabilidad, impacto, exposición y controles existentes.
-              
+              p Se clasifica el hallazgo según criterios técnicos y contextuales, considerando probabilidad, impacto, exposición y controles existentes.              
 
     .bg-color-3.mb-4
       img(src='@/assets/curso/temas/t5/podcast.svg', alt='')

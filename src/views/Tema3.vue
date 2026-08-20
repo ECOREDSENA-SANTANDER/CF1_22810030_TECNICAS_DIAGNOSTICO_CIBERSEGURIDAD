@@ -42,22 +42,22 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7(data-aos='fade-right')
         LineaTiempoD.color-acento-botones
-          .row(numero="1" titulo="Delimitar el alcance")
+          .row(numero="a" titulo="Delimitar el alcance")
             .col-11
               p Se define qué infraestructura se analizará, cuál es el propósito de la revisión y qué restricciones deben respetarse.
-          .row(numero="2" titulo="Identificar los activos")
+          .row(numero="b" titulo="Identificar los activos")
             .col-11
               p Se reconocen los activos involucrados y su relación con el contexto de negocio o con el servicio que podría verse afectado.
-          .row(numero="3" titulo="Recopilar información")
+          .row(numero="c" titulo="Recopilar información")
             .col-11
               p Se reúne información técnica, documental y contextual necesaria para comprender el entorno tecnológico.
-          .row(numero="4" titulo="Aplicar técnicas autorizadas")
+          .row(numero="d" titulo="Aplicar técnicas autorizadas")
             .col-11
               p Se utilizan procedimientos y herramientas de diagnóstico dentro del alcance permitido y bajo condiciones controladas.
-          .row(numero="5" titulo="Documentar hallazgos")
+          .row(numero="e" titulo="Documentar hallazgos")
             .col-11
               p Se registran las evidencias obtenidas para sustentar el análisis y facilitar la toma de decisiones.
-          .row(numero="6" titulo="Clasificar resultados")
+          .row(numero="f" titulo="Clasificar resultados")
             .col-11
               p Los hallazgos se organizan según criterios técnicos y contextuales, diferenciando resultados irrelevantes, falsos positivos y situaciones que requieren atención prioritaria.
       .col-lg-5.d-none.d-lg-block(data-aos='fade-left')
@@ -141,27 +141,27 @@
     SlyderF(columnas="col-lg-4 col-md-6")
       .tarjeta-numerada.color-primario.p-5.h-100
         .tarjeta-numerada__numero
-          .h2 1
+          .h2 a
         h5.text-center Necesidad del servicio
         p.text-center.mb-0 ¿El servicio detectado es necesario para el proceso formativo, comercial o administrativo?
       .tarjeta-numerada.color-acento-botones.p-5.h-100
         .tarjeta-numerada__numero
-          .h2 2
+          .h2 b
         h5.text-center Exposición del activo
         p.text-center.mb-0 ¿El servicio se encuentra expuesto a usuarios que no lo requieren?
       .tarjeta-numerada.color-secundario.p-5.h-100
         .tarjeta-numerada__numero
-          .h2 3
+          .h2 c
         h5.text-center Sensibilidad de la información
         p.text-center.mb-0 ¿El activo procesa información sensible?
       .tarjeta-numerada.color-primario.p-5.h-100
         .tarjeta-numerada__numero
-          .h2 4
+          .h2 d
         h5.text-center Medidas compensatorias
         p.text-center.mb-0 ¿Existe una medida compensatoria que reduzca la exposición?
       .tarjeta-numerada.color-acento-contenido.p-5.h-100
         .tarjeta-numerada__numero
-          .h2 5
+          .h2 e
         h5.text-center Validación del resultado
         p.text-center.mb-0 ¿El resultado debe validarse mediante otra fuente antes de clasificarlo como hallazgo?
 
@@ -210,19 +210,19 @@
         img(src='@/assets/curso/temas/t3/14.png', alt='')
       .col-lg-6(data-aos='fade-left')
         LineaTiempoD.color-acento-botones
-          .row(numero="1" titulo="ISO/IEC 27001:2022")
+          .row(numero="a" titulo="ISO/IEC 27001:2022")
             .col-11
               p Establece requisitos para un SGSI y permite orientar la implementación, mantenimiento y mejora de la gestión de seguridad de la información.
-          .row(numero="2" titulo="ISO/IEC 27002:2022")
+          .row(numero="b" titulo="ISO/IEC 27002:2022")
             .col-11
               p Complementa el enfoque de gestión mediante orientaciones y buenas prácticas relacionadas con controles de seguridad.
-          .row(numero="3" titulo="ISO/IEC 27005:2022")
+          .row(numero="c" titulo="ISO/IEC 27005:2022")
             .col-11
               p Aporta directrices para identificar, evaluar y tratar riesgos de seguridad de la información de manera estructurada.
-          .row(numero="4" titulo="<em>NIST Cybersecurity Framework</em> 2.0")
+          .row(numero="d" titulo="<em>NIST Cybersecurity Framework</em> 2.0")
             .col-11
               p Organiza los resultados de ciberseguridad en seis funciones: gobernar, identificar, proteger, detectar, responder y recuperar.
-          .row(numero="5" titulo="<em>CIS Controls</em>")
+          .row(numero="e" titulo="<em>CIS Controls</em>")
             .col-11
               p Presenta salvaguardas priorizadas que permiten traducir la seguridad en acciones verificables, como inventariar activos, administrar vulnerabilidades, proteger datos y controlar accesos.
 
@@ -233,22 +233,22 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6(data-aos='fade-right')
         LineaTiempoD.color-secundario
-          .row(numero="1" titulo="Gobernar")
+          .row(numero="a" titulo="Gobernar")
             .col-11
               p Permite orientar las decisiones, responsabilidades y prioridades de ciberseguridad.
-          .row(numero="2" titulo="Identificar")
+          .row(numero="b" titulo="Identificar")
             .col-11
               p Facilita reconocer activos, vulnerabilidades, amenazas y riesgos.
-          .row(numero="3" titulo="Proteger")
+          .row(numero="c" titulo="Proteger")
             .col-11
               p Agrupa acciones orientadas a reducir la exposición de los activos y servicios.
-          .row(numero="4" titulo="Detectar")
+          .row(numero="d" titulo="Detectar")
             .col-11
               p Permite reconocer eventos o condiciones que puedan indicar una afectación.
-          .row(numero="5" titulo="Responder")
+          .row(numero="e" titulo="Responder")
             .col-11
               p Orienta la actuación frente a situaciones que requieren análisis y atención.
-          .row(numero="6" titulo="Recuperar")
+          .row(numero="f" titulo="Recuperar")
             .col-11
               p Busca restablecer servicios y fortalecer la continuidad después de una afectación.
       .col-lg-6.d-none.d-lg-block(data-aos='fade-left')
