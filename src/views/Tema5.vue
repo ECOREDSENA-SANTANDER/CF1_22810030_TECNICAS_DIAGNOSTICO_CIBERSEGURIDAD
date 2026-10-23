@@ -227,7 +227,7 @@
           p Para complementar el estudio del registro y la clasificación de hallazgos, escuche el pódcast Del hallazgo al informe técnico. En este recurso se explica cómo documentar una vulnerabilidad, relacionarla con una amenaza, analizar su impacto posible, conservar evidencia y asignar una prioridad. Esta información le ayudará a comprender por qué un diagnóstico de ciberseguridad no debe limitarse a una lista de resultados, sino convertirse en una herramienta para orientar decisiones de protección, mejora y prevención dentro de la organización.
           TarjetaAudio.color-acento-botones(
           texto="<b>Pódcast:</b> del hallazgo al informe técnico"
-          :audio="require_src('@/assets/actividad/audio/success.mp3')")
+          :audio="require_src('@/assets/curso/temas/t5/Podcast_CF1_22810030.mp3')")
           .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
           
 
