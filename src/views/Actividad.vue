@@ -585,7 +585,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Una persona ajena a la organización intenta afectar un sitio <em>web</em> público.',
+              texto: 'Una persona ajena a la organización intenta afectar un sitio web público.',
               esCorrecta: false,
             },
             {
@@ -615,7 +615,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Instalar archivos descargados desde cualquier sitio <em>web</em> para comprobar su contenido.',
+              texto: 'Instalar archivos descargados desde cualquier sitio web para comprobar su contenido.',
               esCorrecta: false,
             },
             {

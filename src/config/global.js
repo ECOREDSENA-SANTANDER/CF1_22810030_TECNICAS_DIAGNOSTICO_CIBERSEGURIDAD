@@ -328,11 +328,6 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Tecnologias de la Informacion y las Comunicaciones. (2022). Decreto 338 de 2022: Lineamientos generales para fortalecer la gobernanza de la seguridad digital.',
-      link: '',
-    },
-    {
-      referencia:
         'Ministerio de Tecnologías de la Información y las Comunicaciones. (2022). Decreto 338 de 2022: Lineamientos generales para fortalecer la gobernanza de la seguridad digital.',
     },
     {
@@ -365,7 +360,7 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Carlos Andrés Boza Reyes ',
+          nombre: 'Carlos Andrés Bonza Reyes ',
           cargo: 'Experto temático TIC ',
           centro: 'Centro Agroturístico - Regional Santander',
         },

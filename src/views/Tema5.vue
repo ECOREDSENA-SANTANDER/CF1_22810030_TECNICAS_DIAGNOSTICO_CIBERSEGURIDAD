@@ -29,7 +29,7 @@
     p Estas propiedades deben analizarse de manera transversal. Una organización puede implementar controles técnicos robustos y, al mismo tiempo, exponer información mediante procedimientos administrativos inadecuados. También puede proteger una base de datos, pero descuidar los archivos descargados por los usuarios o las copias impresas. La gestión debe analizar el ciclo completo de la información: creación, consulta, modificación, transmisión, almacenamiento, respaldo y eliminación.
 
     .tarjeta.bg-color-1.p-4.mb-4(data-aos='fade')
-      p.mb-0 En formación profesional, esta mirada puede aplicarse mediante un caso sencillo. Una unidad productiva crea un sitio #[em web] para recibir solicitudes de sus clientes. El formulario recopila nombre, correo electrónico y descripción del servicio requerido. El diagnóstico no debe concentrarse únicamente en la disponibilidad del sitio. También debe preguntar quién consulta los datos, dónde se almacenan, durante cuánto tiempo se conservan, qué permisos existen y cómo se protege la información personal.
+      p.mb-0 En formación profesional, esta mirada puede aplicarse mediante un caso sencillo. Una unidad productiva crea un sitio web para recibir solicitudes de sus clientes. El formulario recopila nombre, correo electrónico y descripción del servicio requerido. El diagnóstico no debe concentrarse únicamente en la disponibilidad del sitio. También debe preguntar quién consulta los datos, dónde se almacenan, durante cuánto tiempo se conservan, qué permisos existen y cómo se protege la información personal.
     
     p Una política de seguridad de la información establece orientaciones institucionales para proteger activos, definir responsabilidades y guiar decisiones. No se trata de un documento elaborado únicamente para cumplir un requisito formal. Su valor depende de que pueda comprenderse, aplicarse y revisarse de acuerdo con el contexto organizacional.
 
@@ -37,7 +37,7 @@
 
     p Las responsabilidades deben ser explícitas. La seguridad no corresponde únicamente al equipo técnico. Los directivos definen prioridades y recursos; los responsables tecnológicos implementan y revisan controles; los usuarios aplican prácticas seguras; y quienes administran procesos identifican la criticidad de la información. Una institución educativa requiere esta articulación porque la plataforma virtual, los datos académicos, los equipos de laboratorio y los servicios administrativos involucran actores diferentes.
 
-    p.mb-5 Los #[em CIS Critical Security Controls] constituyen un conjunto priorizado de salvaguardas orientadas a defender sistemas y redes frente a ataques frecuentes. Su versión actual enfatiza la necesidad de aplicar prácticas específicas, medibles y pertinentes para entornos modernos que pueden incluir nube, virtualización, movilidad y trabajo remoto (Center for Internet Security [CIS], s. f.-a). Estos controles no reemplazan el análisis institucional, pero aportan criterios prácticos para orientar acciones.
+    p.mb-5 Los CIS Critical Security Controls constituyen un conjunto priorizado de salvaguardas orientadas a defender sistemas y redes frente a ataques frecuentes. Su versión actual enfatiza la necesidad de aplicar prácticas específicas, medibles y pertinentes para entornos modernos que pueden incluir nube, virtualización, movilidad y trabajo remoto (Center for Internet Security [CIS], s. f.-a). Estos controles no reemplazan el análisis institucional, pero aportan criterios prácticos para orientar acciones.
 
 
     .subt.mb-4(data-aos='fade-right')
@@ -73,7 +73,7 @@
 
     Separador
     #t_5_2.titulo-segundo.color-acento-botones(data-aos='fade-right')
-      h2 5.2. Gestión de riesgos y mejora continua 
+      h2 5.2 Gestión de riesgos y mejora continua 
 
     p La gestión de seguridad de la información integra los conceptos anteriores dentro de un sistema organizado. Su propósito es evitar que las acciones dependan únicamente de decisiones reactivas o esfuerzos aislados. Una organización necesita reconocer sus activos, establecer responsabilidades, valorar riesgos, aplicar controles y revisar periódicamente su eficacia.
 
@@ -90,14 +90,14 @@
 
     p La gestión se apoya en componentes relacionados entre sí. La comprensión del contexto permite establecer qué procesos y activos requieren protección. La valoración de riesgos ayuda a priorizar. Las políticas orientan la actuación. Los controles reducen la exposición. La formación fortalece las decisiones de los usuarios. El monitoreo permite analizar cambios. La documentación conserva trazabilidad. La revisión facilita la mejora.
 
-    p #[em NIST SP 800-53 Rev. 5] presenta un catálogo flexible y personalizable de controles de seguridad y privacidad destinado a proteger operaciones, activos, personas y organizaciones frente a amenazas diversas, entre ellas ataques hostiles, errores humanos, fallas estructurales y riesgos de privacidad (NIST, 2020). Su enfoque confirma que la protección no debe limitarse a amenazas intencionales. Un error de configuración o una práctica cotidiana también puede generar consecuencias significativas.
+    p NIST SP 800-53 Rev. 5 presenta un catálogo flexible y personalizable de controles de seguridad y privacidad destinado a proteger operaciones, activos, personas y organizaciones frente a amenazas diversas, entre ellas ataques hostiles, errores humanos, fallas estructurales y riesgos de privacidad (NIST, 2020). Su enfoque confirma que la protección no debe limitarse a amenazas intencionales. Un error de configuración o una práctica cotidiana también puede generar consecuencias significativas.
     
 
     img.mb-4(src='@/assets/curso/temas/t5/4.png', alt='', data-aos='fade')
 
     p Por ejemplo, una base de datos puede quedar expuesta por una acción deliberada, pero también por una configuración incorrecta realizada sin intención perjudicial. En ambos casos, el diagnóstico debe identificar la vulnerabilidad y analizar el riesgo. La clasificación de la causa facilita seleccionar posteriormente las medidas apropiadas.
 
-    p La mejora continua implica revisar periódicamente las condiciones de seguridad. Un diagnóstico realizado una sola vez pierde vigencia cuando cambian los activos, aparecen nuevas amenazas o se modifican los servicios. La incorporación de una nueva aplicación, la apertura de un sitio #[em web], el uso de dispositivos personales o la actualización de una plataforma pueden introducir nuevas condiciones de riesgo.
+    p La mejora continua implica revisar periódicamente las condiciones de seguridad. Un diagnóstico realizado una sola vez pierde vigencia cuando cambian los activos, aparecen nuevas amenazas o se modifican los servicios. La incorporación de una nueva aplicación, la apertura de un sitio web, el uso de dispositivos personales o la actualización de una plataforma pueden introducir nuevas condiciones de riesgo.
 
     p Una comparación facilita la comprensión. El mantenimiento de la seguridad se asemeja a la revisión periódica de una infraestructura física. No basta con verificar una puerta una única vez; deben analizarse los cambios, corregirse daños y comprobarse los controles. En entornos digitales, esta necesidad es aún más evidente porque los sistemas evolucionan continuamente.
 
@@ -156,7 +156,7 @@
 
     Separador
     #t_5_3.titulo-segundo.color-acento-botones(data-aos='fade-right')
-      h2 5.3. Registro y clasificación de hallazgos 
+      h2 5.3 Registro y clasificación de hallazgos 
 
     .tarjeta.bg-color-8.mb-4.pt-4(data-aos='fade')
       .row.justify-content-center.align-items-center
@@ -226,7 +226,7 @@
         .tarjeta.bg-white.p-4
           p Para complementar el estudio del registro y la clasificación de hallazgos, escuche el pódcast Del hallazgo al informe técnico. En este recurso se explica cómo documentar una vulnerabilidad, relacionarla con una amenaza, analizar su impacto posible, conservar evidencia y asignar una prioridad. Esta información le ayudará a comprender por qué un diagnóstico de ciberseguridad no debe limitarse a una lista de resultados, sino convertirse en una herramienta para orientar decisiones de protección, mejora y prevención dentro de la organización.
           TarjetaAudio.color-acento-botones(
-          texto="<b>Pódcast:</b> del hallazgo al informe técnico"
+          texto="<b>Pódcast:</b> Del hallazgo al informe técnico"
           :audio="require_src('@/assets/curso/temas/t5/Podcast_CF1_22810030.mp3')")
           .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
           

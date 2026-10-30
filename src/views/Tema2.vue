@@ -106,7 +106,7 @@
             tr
               td #[em Software]
               td Debilidad asociada con el diseño, desarrollo o mantenimiento de una aplicación o componente.
-              td Un sitio #[em web] utiliza una biblioteca desactualizada.
+              td Un sitio web utiliza una biblioteca desactualizada.
               td Exposición de datos, modificación no autorizada o interrupción del servicio.
               td Versión instalada, documentación técnica y registros de actualización.
             tr
